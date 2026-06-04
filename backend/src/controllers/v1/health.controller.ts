@@ -3,7 +3,7 @@ import { getHealth } from "../../services/health.service.js";
 import { StatusCodes } from "http-status-codes";
 
 export function getHealthStatus(
-  req: Request,
+  _req: Request,
   res: Response,
   next: NextFunction,
 ) {

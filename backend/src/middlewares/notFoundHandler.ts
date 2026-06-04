@@ -4,7 +4,7 @@ import { StatusCodes } from "http-status-codes";
 
 export const notFoundHandler = (
   req: Request,
-  res: Response,
+  _res: Response,
   next: NextFunction,
 ) => {
   const err = new Error(

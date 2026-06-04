@@ -1,0 +1,24 @@
+{
+  "name": "unihub",
+  "version": "1.0.0",
+  "description": "UniHub - Academic management platform for university students",
+  "scripts": {
+    "lint": "npm run lint --prefix frontend && npm run lint --prefix backend",
+    "format": "prettier . --write",
+    "format:check": "prettier . --check",
+    "build": "npm run build --prefix frontend && npm run build --prefix backend"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/THowle06/unihub.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/THowle06/unihub/issues"
+  },
+  "homepage": "https://github.com/THowle06/unihub#readme",
+  "devDependencies": {
+    "prettier": "^3.8.3"
+  }
+}
